@@ -1,0 +1,50 @@
+<div data-page="bulletins" class="page">
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="left"><a href="index.html" class="back link icon-only"><i class="icon icon-back"></i></a>
+			</div>
+			<div class="center">Объявления</div>
+			<div class="right"><a href="#" class="link open-panel icon-only"><i class="icon icon-bars"></i></a>
+			</div>
+		</div>
+	</div>
+	<div id="bulletins_all_page" class="page-content pull-to-refresh-content infinite-scroll">
+		<div id="bulletins_all_list">
+			<!-- Default pull to refresh layer-->
+			<div class="pull-to-refresh-layer">
+				<div class="preloader"></div>
+				<div class="pull-to-refresh-arrow"></div>
+			</div>
+			
+			<!-- HERE GOES BULLETINS CARDS -->
+
+		</div>
+		<!-- Preloader -->
+		<div class="infinite-scroll-preloader">
+			<div class="preloader"></div>
+		</div>
+	</div>
+	
+	<div class="toolbar tabbar tabbar-labels" style="position:absolute;bottom:0px;left:0px;">
+		<div class="toolbar-inner">
+			<a href="#tab1" class="tab-link">
+				<i class="icon official">
+					<span class="badge bg-red">5</span>
+				</i>
+				<span class="tabbar-label">Продам</span>
+			</a>
+			<a href="#tab2" class="tab-link active">
+				<i class="icon all"></i>
+				<span class="tabbar-label">Куплю</span>
+			</a>
+			<a href="#tab2" class="tab-link active">
+				<i class="icon all"></i>
+				<span class="tabbar-label">Перееду</span>
+			</a>
+			<a href="#" class="tab-link" onclick="GoToPage('pages/event_add.html')">
+				<i class="icon add-new"></i>
+				<span class="tabbar-label">Добавить</span>
+			</a>
+		</div>
+	</div>
+</div>

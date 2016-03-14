@@ -1,0 +1,17 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "intel.xdk.device": {},
+        "cordova-plugin-device": {},
+        "intel.xdk.camera": {},
+        "nl.x-services.plugins.socialsharing": {},
+        "com.ququplay.websocket.WebSocket": {}
+    },
+    "dependent_plugins": {}
+}

@@ -1,0 +1,42 @@
+<div data-page="tutorial" class="page" style="padding:0;background-color: #3679a4;">
+	<div class="tutorial-page-background" id="tutorial-page-background">
+		<div id="top-space" style="width:100%;height:20%;">
+			<img src="./img/Logos/LogoLight.png" style="width: 15%; margin: 15px;">
+		</div>
+		<div id="registration-slide" style="display:none;">
+			<div class="time-counter">
+				<strong id="seconds-counter">0</strong>
+				<div id="seconds-note">секунд</div>
+			</div>
+			<div style="color:#EEEEEE;text-align:center;margin: 40px 0px 40px 0px;">
+				Регистрация очень простая и быстрая.<br>У вас 40 секунд.
+			</div>
+			<div>
+				<input type="text" id="first-name" placeholder="Имя" class="registration-input"/>
+				<input type="text" id="last-name" placeholder="Фамилия" class="registration-input"/>
+			</div>
+			<div style="color:#EEEEEE;text-align:center;margin: 40px 0px 40px 0px;">
+				Только русские буквы.<br>Заглавные - автоматически.
+			</div>
+			
+			<input id="register-button" value="Готово!" type="button" class="button button-big button-fill color-green" style="display:none;position:absolute;bottom:0px;left:0px;width:100%;border:0px"/>
+			
+		</div>
+		<div id="info-slide" style="text-align: center; color: white;">
+			<div><img id="slide-image" src="" style="height: 80px;"></div>
+			<span id="slide-name" style="font-size: 24px;"></span>
+			<br /><br /><br /><br />
+			<div id="slide-points">
+				<div id="slide-point-1" class="slide-point"></div>
+				<div id="slide-point-1-desc" class="slide-point-description"></div>
+				<div id="slide-point-2" class="slide-point"></div>
+				<div id="slide-point-2-desc" class="slide-point-description"></div>
+				<div id="slide-point-3" class="slide-point"></div>
+				<div id="slide-point-3-desc" class="slide-point-description"></div>
+			</div>
+		</div>
+		<div class="tutorial-next-button" id="tutorial-next-button">
+			Далее <img src="./img/next.png" class="tutorial-next-button-image">
+		</div>
+	</div>
+</div>

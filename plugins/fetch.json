@@ -1,0 +1,57 @@
+{
+    "cordova-plugin-device": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Users\\Ouden\\AppData\\Local\\Intel\\XDK\\xdk\\components\\server\\cordova-plugins\\cordova-plugin-device"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "intel.xdk.device": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/01org/cordova-plugin-intel-xdk-device.git",
+            "subdir": ".",
+            "ref": "r1.2.5"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "intel.xdk.camera": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/01org/cordova-plugin-intel-xdk-camera.git",
+            "subdir": ".",
+            "ref": "r1.2.3"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "nl.x-services.plugins.socialsharing": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
+            "subdir": ".",
+            "ref": "4.3.19"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.device": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.device"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "com.ququplay.websocket.WebSocket": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mkuklis/phonegap-websocket",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

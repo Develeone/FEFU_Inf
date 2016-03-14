@@ -1,0 +1,419 @@
+{
+  "project": {
+    "projectSettingsVersion": "2.0.0",
+    "creationData": {
+      "type": "Import",
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "",
+      "projectGuid": "46fc9981-272d-4772-ba1e-c54f633a71d1",
+      "lastModifiedDate": 1446612337082,
+      "creationDate": 1443432287222
+    },
+    "sourceDirectory": "",
+    "cordovaPluginsDirectory": "plugins",
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "testDirectory": "test",
+    "startFile": "index.html",
+    "projectTags": [],
+    "projectFiles": {},
+    "projectDirectories": {
+      "xdk": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      }
+    },
+    "libraries": [],
+    "cordovaPlugins": [
+      {
+        "id": "intel.xdk.device",
+        "name": "Intel XDK Device",
+        "version": "1.2.5",
+        "originType": "repo",
+        "origin": "https://github.com/01org/cordova-plugin-intel-xdk-device.git",
+        "gitref": "r1.2.5",
+        "subdir": ".",
+        "paramvals": {},
+        "sourceLocation": "plugins/intel.xdk.device",
+        "selectedState": "Included",
+        "checksum": "3613045d",
+        "dependsOn": [],
+        "topLevel": true,
+        "permissions": {
+          "android:name": [
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.CAMERA",
+            "android.permission.FLASHLIGHT"
+          ]
+        },
+        "description": "Intel XDK Device Plugin",
+        "data": {},
+        "dependedBy": [],
+        "cordovaVersion": ">=3.0"
+      },
+      {
+        "id": "cordova-plugin-device",
+        "name": "Device",
+        "version": "1.0.1",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-device",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-device",
+        "selectedState": "Included",
+        "checksum": "adfc61ba",
+        "dependsOn": [],
+        "topLevel": true,
+        "permissions": {},
+        "description": "Cordova Device Plugin",
+        "data": {},
+        "dependedBy": [],
+        "cordovaVersion": ">=3.0"
+      },
+      {
+        "id": "intel.xdk.camera",
+        "name": "Intel XDK Camera",
+        "version": "1.2.3",
+        "originType": "repo",
+        "origin": "https://github.com/01org/cordova-plugin-intel-xdk-camera.git",
+        "gitref": "r1.2.3",
+        "subdir": ".",
+        "paramvals": {},
+        "sourceLocation": "plugins/intel.xdk.camera",
+        "selectedState": "Included",
+        "checksum": "d3be688f",
+        "dependsOn": [],
+        "topLevel": true,
+        "permissions": {
+          "android:name": [
+            "android.permission.CAMERA",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ]
+        },
+        "description": "Intel XDK Camera Plugin",
+        "data": {},
+        "dependedBy": [],
+        "cordovaVersion": ">=3.0"
+      },
+      {
+        "id": "nl.x-services.plugins.socialsharing",
+        "name": "SocialSharing",
+        "version": "4.3.19",
+        "originType": "repo",
+        "origin": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
+        "gitref": "4.3.19",
+        "subdir": ".",
+        "paramvals": {},
+        "sourceLocation": "plugins/nl.x-services.plugins.socialsharing",
+        "selectedState": "Included",
+        "checksum": "15090431",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "author": "Eddy Verbruggen",
+        "permissions": {
+          "android:name": [
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+          ]
+        },
+        "description": "\r\n    This plugin allows you to share text, images (and other files), or a link via the native sharing widget of your device.\r\n    Android is fully supported, as well as iOS 6 and up. WP8 has somewhat limited support.\r\n  ",
+        "data": {},
+        "dependedBy": []
+      },
+      {
+        "id": "com.ququplay.websocket.WebSocket",
+        "name": "WebSocket",
+        "version": "0.1.0",
+        "originType": "repo",
+        "origin": "https://github.com/mkuklis/phonegap-websocket",
+        "gitref": "",
+        "subdir": ".",
+        "paramvals": {},
+        "sourceLocation": "plugins/com.ququplay.websocket.WebSocket",
+        "selectedState": "Included",
+        "checksum": "e089d6f6",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0",
+        "author": "Michal Kuklis",
+        "permissions": {},
+        "description": "\r\n      Phonegap plugin which adds support for websockets under Android. \r\n    ",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      }
+    ],
+    "serviceMethods": [],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto",
+          "Fullscreen": false,
+          "Orientation": "portrait"
+        },
+        "isActive_": true,
+        "appName_": "ДВФУ Информер",
+        "appID_": "ru.awake.fefu_informer",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [
+          {
+            "relPath": "img/Logos/Logo36x36.png",
+            "density": "ldpi",
+            "height": 36,
+            "width": 36
+          },
+          {
+            "relPath": "img/Logos/Logo48x48.png",
+            "density": "mdpi",
+            "height": 48,
+            "width": 48
+          },
+          {
+            "relPath": "img/Logos/Logo72x72.png",
+            "density": "hdpi",
+            "height": 72,
+            "width": 72
+          },
+          {
+            "relPath": "img/Logos/Logo96x96.png",
+            "density": "xhdpi",
+            "height": 96,
+            "width": 96
+          }
+        ],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.2",
+        "appVersionCode_": "2",
+        "crosswalkVersion_": "14",
+        "cordovaCLIVersion_": "5.1.1",
+        "appAuthor_": "Бабков Леонид, Awake.su",
+        "appDescription_": "Вся социальная жизнь ДВФУ в одном приложени"
+      },
+      "Android-Crosswalk": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android-Crosswalk",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto",
+          "Fullscreen": true,
+          "Orientation": "portrait"
+        },
+        "isActive_": false,
+        "appName_": "FEFU_Informer",
+        "appID_": "ru.awake.fefu_informer",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "15",
+        "cordovaCLIVersion_": "5.1.1",
+        "appAuthor_": "Babkov Leonid, Awake.su",
+        "appDescription_": ""
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-target": "6",
+          "ios-configuration": "adhoc",
+          "Orientation": "portrait"
+        },
+        "isActive_": true,
+        "appName_": "ДВФУ Информер",
+        "appID_": "ru.awake.fefu_informer",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "cordovaCLIVersion_": "5.1.1",
+        "iosProvs_": [
+          {
+            "relPath": "_CON.mobileprovision",
+            "type": "adhoc"
+          }
+        ],
+        "appDescription_": "Вся социальная жизнь ДВФУ в одном приложени",
+        "appAuthor_": "Бабков Леонид, Awake.su",
+        "appVersionCode_": ""
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "FEFU_Informer",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "5.1.1"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "FEFU_Informer",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+        "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "FEFU_Informer",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "FEFU_Informer",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Facebook": {
+        "platform_": "facebook",
+        "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "FEFU_Informer",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1"
+      },
+      "WP81": {
+        "platform_": "wp81",
+        "runtime_": "Cordova 3.x",
+        "name_": "WP81",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "FEFU_Informer",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "legacy",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "5.1.1"
+      }
+    }
+  },
+  "editorTab": {
+    "showLiveDevelopmentTasksPanel": false
+  }
+}

@@ -1,0 +1,47 @@
+<div data-page="cars" class="page">
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="left">
+				<a href="index.html" class="back link icon-only"><i class="icon icon-back"></i></a>
+			</div>
+			<div class="center">Подвезу</div>
+			<div class="right">
+				<a href="#" class="link open-panel icon-only"><i class="icon icon-bars"></i></a>
+			</div>
+		</div>
+	</div>
+	
+	<div id="cars_all_page" class="page-content pull-to-refresh-content infinite-scroll" style="padding-bottom:73px;">		
+		<div id="cars_all_list">
+			<!-- Default pull to refresh layer-->
+			<div class="pull-to-refresh-layer">
+				<div class="preloader"></div>
+				<div class="pull-to-refresh-arrow"></div>
+			</div>
+		</div>
+		<!-- Preloader -->
+		<div class="infinite-scroll-preloader" style="margin-bottom:100px;">
+			<div class="preloader"></div>
+		</div>
+	</div>
+
+	<div class="toolbar tabbar tabbar-labels" style="position:absolute;bottom:0px;left:0px;">
+		<div class="toolbar-inner">
+			<a href="#tab1" class="tab-link active" id="requests-tab-button">
+				<i class="icon all"></i>
+				<span class="tabbar-label">Пассажиры</span>
+			</a>
+			<a href="#tab2" class="tab-link" id="drivers-tab-button">
+				<i class="icon official">
+					<span class="badge bg-red">5</span>
+				</i>
+				<span class="tabbar-label">Водители</span>
+			</a>
+			<a href="#" class="tab-link" onclick="GoToPage('pages/cars_add.html')">
+				<i class="icon add-new"></i>
+				<span class="tabbar-label">Добавить</span>
+			</a>
+		</div>
+	</div>
+	
+</div>
